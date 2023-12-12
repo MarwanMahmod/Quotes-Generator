@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.quote-app{
+    background-image: url(minimalism-code-quote-text-wallpaper-preview.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding-top:3%;
+    line-height: 30px;
+    color: white;
+}
+.quote-app h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;    
+}
+.quote-app p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;    
+}
+.btn{
+    background-color: green;
+    transition: all 1s;
+}
+.quote-app .btn:hover{
+    background-color: indigo;
+}
+
+#head{
+    font-size: x-large;
+    font-style: italic;
+}
+#Quote{
+    font-size: x-large;
+    color: tomato;
+}
+#Author{
+    font-size: x-large;
+    color: tomato;
+}
+h1::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0%{content: "|";}
+    4%{content: "Q|";}
+    8%{content: "Qu|";}
+    12%{content: "Quo|";}
+    16%{content: "Quot|";}
+    20%{content: "Quote|";}
+    24%{content: "Quote |";}
+    28%{content: "Quote o|";}
+    32%{content: "Quote of |";}
+    36%{content: "Quote of t|";}
+    40%{content: "Quote of th|";}
+    44%{content: "Quote of the|";}
+    48%{content: "Quote of the d|";}
+    52%{content: "Quote of the da|";}
+    56%{content: "Quote of the day|";}
+    60%{content: "Quote of the da|";}
+    64%{content: "Quote of the d|";}
+    68%{content: "Quote of the|";}
+    72%{content: "Quote of th|";}
+    76%{content: "Quote of t|";}
+    80%{content: "Quote of|";}
+    84%{content: "Quote o|";}
+    88%{content: "Quote|";}
+    92%{content: "Quot|";}
+    94%{content: "Quo|";}
+    96%{content: "Qu|";}
+    100%{content: "Q|";}
+}
